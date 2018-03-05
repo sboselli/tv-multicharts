@@ -2,12 +2,24 @@
 
 A set of static html files featuring various cmobinations of markets, using TradingView widgets.
 
+## Example screenshots
+
+See '/screenshots' folder for more or below for the full list.
+
+![Exchanges](https://raw.githubusercontent.com/sboselli/tv-multichartes/master/screenshots/exchanges.png)
+
+![Bitfinex Longs & Shorts](https://raw.githubusercontent.com/sboselli/tv-multichartes/master/screenshots/bitfinex-longs-shorts-btc.png)
+
 ## Current layouts
 
-* exchanges (3x3)
+* exchanges-btc (3x3)
   * BITFINEX:BTCUSD 1M | COINBASE:BTCUSD 1M | BITSTAMP:BTCUSD 1M
   * BITFLYER:Bitcoin/Yen 1M | BINANCE:Bitcoin/Tether 1M | BITTREX:Bitcoin/Tether 1M
   * BITHUMB:Bitcoin/Won 1M | XCOIN:Bitcoin/Won 1M | KORBIT:Bitcoin/Won 1M
+* bitfinex-longs-shorts-btc (2x3)
+  * BITFINEX:BTCUSD 1M | BITFINEX:BTCUSD 15M
+  * BITFINEX:BTCUSDLONGS 1M | BITFINEX:BTCUSDLONGS 15M
+  * BITFINEX:BTCUSDSHORTS 1M | BITFINEX:BTCUSDSHORTS 15M
 * bitfinex-timeframes-btc (3x2)
   * BITFINEX:BTCUSD 1M | BITFINEX:BTCUSD 5M | BITFINEX:BTCUSD 15M
   * BITFINEX:BTCUSD 1H | BITFINEX:BTCUSD 4H | BITFINEX:BTCUSD 1D
@@ -17,10 +29,6 @@ A set of static html files featuring various cmobinations of markets, using Trad
 * bitfinex-timeframes-ltc (3x2)
   * BITFINEX:LTCUSD 1M | BITFINEX:LTCUSD 5M | BITFINEX:LTCUSD 15M
   * BITFINEX:LTCUSD 1H | BITFINEX:LTCUSD 4H | BITFINEX:LTCUSD 1D
-* bitfinex-longs-shorts (2x3)
-  * BITFINEX:BTCUSD 1M | BITFINEX:BTCUSD 15M
-  * BITFINEX:BTCUSDLONGS 1M | BITFINEX:BTCUSDLONGS 15M
-  * BITFINEX:BTCUSDSHORTS 1M | BITFINEX:BTCUSDSHORTS 15M
 * coinbase-timeframes-btc.html (3x2)
   * COINBASE:BTCUSD 1M | COINBASE:BTCUSD 5M | COINBASE:BTCUSD 15M
   * COINBASE:BTCUSD 1H | COINBASE:BTCUSD 4H | COINBASE:BTCUSD 1D
@@ -30,7 +38,7 @@ A set of static html files featuring various cmobinations of markets, using Trad
 * coinbase-timeframes-ltc.html (3x2)
   * COINBASE:LTCUSD 1M | COINBASE:LTCUSD 5M | COINBASE:LTCUSD 15M
   * COINBASE:LTCUSD 1H | COINBASE:LTCUSD 4H | COINBASE:LTCUSD 1D
-* bitmex-contracts (2x2)
+* bitmex-contracts-btc (2x2)
   * BITMEX:XBT 1M | BITMEX:XBTUSD 1M
   * BITMEX:XBTH18 1M | BITMEX:XBTM18 1M
 
