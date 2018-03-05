@@ -1,6 +1,6 @@
 # TradingView Multicharts
 
-A set of static html files featuring various cmobinations of markets, using TradingView widgets.
+A set of static html files featuring various combinations of markets, using TradingView widgets.
 
 See below for the full list of layouts.
 
@@ -49,7 +49,7 @@ Beware, 4/5 columns/rows will only look good on larger resolutions.
 
 Contributions are welcome! Submit a PR with your custom layouts.
 
-You can target specific markets or exchanges, but please try to have a degree of unity and order in the layout as a whole. (and don't forget to include it in this README).
+You can target specific markets or exchanges, but please try to have a degree of unity and order in the layout as a whole. (and also please include it in this README).
 
 ## Support
 
