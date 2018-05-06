@@ -38,6 +38,13 @@ Example screenshot: Bitfinex Longs & Shorts
 * bitmex-contracts-btc (2x2) ([screenshot](https://raw.githubusercontent.com/sboselli/tv-multicharts/master/screenshots/bitmex-contracts-btc.png))
   * BITMEX:XBT 1M | BITMEX:XBTUSD 1M
   * BITMEX:XBTH18 1M | BITMEX:XBTM18 1M
+  * bitmex-contracts-btc (2x2)
+
+* international-exchanges-btc-ltc-eth-bch-longs-shorts 3x3
+([screenshot](https://raw.githubusercontent.com/sboselli/tv-multicharts/master/screenshots/international-exchanges-btc-ltc-eth-bch-longs-shorts.png))
+  * BITFINEX:BTCUSD 1M | BITFINEX:USD PERPETUAL INVERSE 1M | BITFLYER:BTCYEN 1M
+  * BINANCE:BTCTETHER 1M | COINBASE:BTCUSD 1M | BITSTAMP:BTCUSD 1M
+  * BITFINEX:BTCUSD LONGS 1M | BITFINEX:BTCUSD SHORTS 1M | BITHUMB:BTC-SOUTH-KOREA-WON
 
 ## Grid
 
