@@ -1,0 +1,268 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>exchanges btc spot, longs vs short, perps, asia and ltc/eth/bch</title>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  </head>
+  <style>
+    body, html {
+      padding: 0;
+      margin: 0;
+      font-family: 'fontawesome', Calibri, Arial, sans-serif;
+      color: #666;
+      background: #111;
+      min-height: 800px;
+    }
+    *,
+    *:after,
+    *:before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #fff;
+    }
+    .pair {
+      position: fixed;
+      float: left;
+      left: 0px;
+      color: #fd0;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 1em;
+      background:  rgba(0,0,0,0.8);
+      z-index: 999;
+    }
+    .grid {
+      width: 100%;
+      z-index: 100;
+    }
+    .module {
+      color: #666;
+      background-color: #222;
+      float: left;
+      width: 33.22%;
+      height: 33.22vh;
+    }
+    .module2 {
+      color: #666;
+      background-color: #222;
+      float: left;
+      width: 50%;
+      height: 50vh;
+    }
+    .symbol {
+      display: none;
+      position: fixed;
+      float: left;
+      background: rgba(0,0,0,1);
+      z-index: 1000;
+    }
+  </style>
+  <body>
+    <div id="check" style="display: none;">
+      <img src="https://ga-beacon.appspot.com/UA-118345126-2/welcome-page" />
+    </div>
+    <div class="container">
+      <div class="grid">
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+            "autosize": true,
+            "symbol": "BITFINEX:BTCUSD",
+            "interval": "1",
+            "timezone": "UTC",
+            "theme": "Dark",
+            "style": "1",
+            "locale": "en",
+            "toolbar_bg": "rgba(0, 0, 0, 1)",
+            "enable_publishing": false,
+            "hide_top_toolbar": true,
+            "allow_symbol_change": true,
+            "save_image": false,
+            "hideideas": true,
+            "studies": [
+              "BB@tv-basicstudies",
+            ]
+            });
+          </script>
+        </article>
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+              "autosize": true,
+              "symbol": "BITMEX:XBTUSD",
+              "interval": "1",
+              "timezone": "UTC",
+              "theme": "Dark",
+              "style": "1",
+              "locale": "en",
+              "toolbar_bg": "rgba(0, 0, 0, 1)",
+              "enable_publishing": false,
+              "hide_top_toolbar": true,
+              "allow_symbol_change": true,
+              "save_image": false,
+              "hideideas": true,
+              "studies": [
+            	"BB@tv-basicstudies",
+            ]
+            });
+          </script>
+        </article>
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+              "autosize": true,
+              "symbol": "BITFLYER:BTCJPY",
+              "interval": "1",
+              "timezone": "UTC",
+              "theme": "Dark",
+              "style": "1",
+              "locale": "en",
+              "toolbar_bg": "rgba(0, 0, 0, 1)",
+              "enable_publishing": false,
+              "hide_top_toolbar": true,
+              "allow_symbol_change": true,
+              "save_image": false,
+              "hideideas": true,
+              "studies": [
+            	"BB@tv-basicstudies",
+              ]
+            });
+          </script>
+        </article>
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+              "autosize": true,
+              "symbol": "BINANCE:BTCUSDT",
+              "interval": "1",
+              "timezone": "UTC",
+              "theme": "Dark",
+              "style": "1",
+              "locale": "en",
+              "toolbar_bg": "rgba(0, 0, 0, 1)",
+              "enable_publishing": false,
+              "hide_top_toolbar": true,
+              "allow_symbol_change": true,
+              "save_image": false,
+              "hideideas": true,
+              "studies": [
+            	"BB@tv-basicstudies",
+              ]
+            });
+          </script>
+        </article>
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+              "autosize": true,
+              "symbol": "COINBASE:BTCUSD",
+              "interval": "1",
+              "timezone": "UTC",
+              "theme": "Dark",
+              "style": "1",
+              "locale": "en",
+              "toolbar_bg": "rgba(0, 0, 0, 1)",
+              "enable_publishing": false,
+              "hide_top_toolbar": true,
+              "allow_symbol_change": true,
+              "save_image": false,
+              "hideideas": true,
+              "studies": [
+            	"BB@tv-basicstudies",
+              ]
+            });
+          </script>
+        </article>
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+              "autosize": true,
+              "symbol": "BITSTAMP:BTCUSD",
+              "interval": "1",
+              "timezone": "UTC",
+              "theme": "Dark",
+              "style": "1",
+              "locale": "en",
+              "toolbar_bg": "rgba(0, 0, 0, 1)",
+              "enable_publishing": false,
+              "hide_top_toolbar": true,
+              "allow_symbol_change": true,
+              "save_image": false,
+              "hideideas": true,
+              "studies": [
+            	"BB@tv-basicstudies",
+              ]
+            });
+          </script>
+        </article>
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+              "autosize": true,
+              "symbol": "BITFINEX:BTCUSDLONGS",
+              "interval": "1",
+              "timezone": "UTC",
+              "theme": "Dark",
+              "style": "3",
+              "locale": "en",
+              "toolbar_bg": "rgba(0, 0, 0, 1)",
+              "enable_publishing": false,
+              "hide_top_toolbar": true,
+              "allow_symbol_change": true,
+              "save_image": false,
+              "hideideas": true
+            });
+          </script>
+        </article>
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+              "autosize": true,
+              "symbol": "BITFINEX:BTCUSDSHORTS",
+              "interval": "1",
+              "timezone": "UTC",
+              "theme": "Dark",
+              "style": "3",
+              "locale": "en",
+              "toolbar_bg": "rgba(0, 0, 0, 1)",
+              "enable_publishing": false,
+              "hide_top_toolbar": true,
+              "allow_symbol_change": true,
+              "save_image": false,
+              "hideideas": true
+            });
+          </script>
+        </article>
+        <article class="module">
+          <script type="text/javascript">
+            new TradingView.widget({
+              "autosize": true,
+              "symbol": "BITHUMB:BTCKRW",
+              "interval": "1",
+              "timezone": "UTC",
+              "theme": "Dark",
+              "style": "1",
+              "locale": "en",
+              "toolbar_bg": "rgba(0, 0, 0, 1)",
+              "enable_publishing": false,
+              "hide_top_toolbar": true,
+              "allow_symbol_change": true,
+              "save_image": false,
+              "hideideas": true,
+              "studies": [
+            	"BB@tv-basicstudies",
+              ]
+            });
+          </script>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
